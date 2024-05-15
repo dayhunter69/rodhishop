@@ -1,0 +1,21 @@
+.Map-Checkbox-Field {
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.Map-Checkbox-Field::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 17px;
+  line-height: 13px;
+  color: #000000;
+  transform: scale(0);
+}
+.Map-Checkbox-Field:checked::before {
+  transform: rotate(15deg);
+}

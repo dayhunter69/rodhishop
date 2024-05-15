@@ -1,0 +1,92 @@
+.Delivery-Container {
+  width: 572px;
+  /* height: 400px; */
+}
+.Delivery-Title > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/* .Delivery-Form-Container {
+  height: 365px;
+} */
+.Delivery-Text-Field {
+  margin-top: 20px;
+  width: 569.5px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  outline: none;
+  padding-left: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.Delivery-Billing-Address {
+  margin: 15px 0px;
+}
+.Delivery-Billing-Address > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.Delivery-checkbox-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 229px;
+  height: 32px;
+}
+.Delivery-checkbox-Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+}
+/* .Delivery-Check-Box {
+  width: 25px;
+  height: 25px;
+} */
+.Delivery-Check-Box {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.Delivery-Check-Box::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 30px;
+  line-height: 23px;
+  color: #000000;
+  transform: scale(0);
+}
+
+.Delivery-Check-Box:checked::before {
+  transform: rotate(15deg);
+}
+.Delivery-checkbox-Paragraph > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}

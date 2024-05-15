@@ -1,0 +1,119 @@
+.DeliveryProvince-Container {
+  width: 569.5px;
+  display: flex;                  
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.DeliveryProvince-Box {
+  width: 569.5px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  position: relative;
+}
+.DeliveryProvince-UpDown-Arrow {
+  display: flex;
+  position: absolute;
+  right: 13px;
+  top: 18px;
+  cursor: pointer;
+}
+.DeliveryProvince-Dropdown {
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  width: 569.5px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.DeliveryProvince-List-Type {
+  position: absolute;
+  /* width: 568px; */
+  height:200px;
+  top: 49px;
+  left: 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #ffffff;
+  z-index: 3;
+  overflow-y: scroll;
+}
+.DeliveryProvince-List-Type::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+.DeliveryProvince-List-Type::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.DeliveryProvince-List-Type::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 2px;
+}
+
+.DeliveryProvince-List-Type::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.DeliveryProvince-List-Type-Option {
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  width: 564px;
+  height: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  cursor: pointer;
+}
+.DeliveryProvince-List-Type-Option:hover {
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  width: 564px;
+  height: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.deliveryDeactive {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  width: 569px;
+  height: 50px;
+  cursor: pointer;
+}
+.deliveryActive {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  width: 569px;
+  height: 50px;
+  cursor: pointer;
+}

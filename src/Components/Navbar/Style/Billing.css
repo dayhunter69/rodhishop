@@ -1,0 +1,49 @@
+.Billing-Wrapper {
+  width: 610px;
+}
+.Billing-Container {
+  display: flex;
+  justify-content: space-between;
+}
+.Billing-Box1 {
+  width: 300px;
+  height: 344px;
+  background: #ffffff;
+  box-shadow: 0px 3.56164px 3.56164px rgba(0, 0, 0, 0.25);
+}
+.Billing-Delivery-Address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 247px;
+  margin: 22px auto 0px auto;
+}
+.Billing-Paragraph > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.Billing-Edit-Icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Billing-Paragraph2 {
+  width: 247px;
+  height: 28px;
+  margin: 10px auto 0px auto;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}

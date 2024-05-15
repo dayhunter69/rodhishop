@@ -1,0 +1,318 @@
+.Earphone-Cross-Icon {
+  cursor: pointer;
+  /* border: 1px solid red; */
+  width: 40px;
+  height: 40px;
+  /* position: absolute;
+    top: 23px;
+    z-index: 1;
+    left: 33px; */
+}
+.earphone-container {
+  width: 800px;
+  height: 485px;
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 20px 20px;
+}
+.cable-container {
+  width: 825px;
+  height: 485px;
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 20px 20px;
+}
+.Allicon-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  height: 438px;
+  /* border: 1px solid red; */
+}
+.Allicon-Circle-Box {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 93px;
+}
+.Allicon-Circle1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.Allicon-Circle2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background: #000000;
+  cursor: pointer;
+}
+
+.icon-product-name {
+  text-transform: uppercase;
+}
+.Earphone-Detail-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* width: 469px; */
+}
+.Earphone-Detail-Sub-Container {
+  /* width: 153px;
+    height: 179px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Earphone-Detail-Content {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+.earphoneActiveTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #000000;
+  cursor: pointer;
+}
+.earphone-container-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 863px;
+  height: 410px;
+  border: 1px solid red;
+}
+.Earphone-productIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.earphonename {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.earphone-icon-box {
+  display: flex;
+  width: 180px;
+}
+.Crossicon {
+  width: 40px;
+  cursor: pointer;
+}
+.Allicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.earphone-text-container {
+  width: 665px;
+  display: flex;
+  justify-content: center;
+}
+.earphone-driver-jack {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 664px;
+}
+.Earphone-driver {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+}
+/* css for Wallcharger  start*/
+.Wallcharger-driver {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  /* border: 1px solid red; */
+}
+.WallCharger-Enter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.33);
+  border: none;
+  border-radius: 4px;
+  border-radius: 4px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* css for Wallcharger  end*/
+
+/* css for cable  start*/
+.Cable-driver {
+  display: flex;
+  flex-direction: column;
+  width: 218px;
+  /* border: 1px solid red; */
+}
+.Cable-Enter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.33);
+  border: none;
+  border-radius: 4px;
+  border-radius: 4px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* css for cable  end*/
+
+.Earphone-Disable-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.33);
+  border: none;
+  border-radius: 4px;
+  border-radius: 4px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Earphone-Enable-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  background: #000000;
+  border: none;
+  border-radius: 4px;
+  border-radius: 4px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Earphone-feature {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+.Earphone-feature-Item1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  margin: 1px 0px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  text-align: center;
+}
+.Earphone-feature-Item2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.49);
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  text-align: center;
+  margin: 1px 0px;
+}
+.earphoneActiveBtn {
+  width: 130px;
+  height: 50px;
+  background: #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.earphoneDeActiveBtn {
+  width: 130px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.33);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

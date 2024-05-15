@@ -1,0 +1,21 @@
+.Promo-Checkbox {
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.Promo-Checkbox::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 35px;
+  line-height: 24px;
+  color: #000000;
+  transform: scale(0);
+}
+.Promo-Checkbox:checked::before {
+  transform: rotate(17deg);
+}

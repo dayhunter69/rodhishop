@@ -1,0 +1,184 @@
+.ReviewFeedback-Container {
+  width: 963px;
+  height: 100%;
+  margin: 0px auto;
+}
+.ReviewFeedback-Top-Title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  padding-top: 20px;
+}
+.ReviewFeedback-Top-Filter-Container {
+  width: 960px;
+  margin: 34px auto 0px auto;
+}
+
+.ReviewFeedback-Filter-Btn-Div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  margin-left: auto;
+}
+.ReviewFeedback-Para {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ReviewFeedback-Main {
+  position: relative;
+}
+.ReviewFeedback-Updown-Arrow {
+  display: flex;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  cursor: pointer;
+}
+.ReviewFeedback-Btn-Container {
+  display: flex;
+  align-items: center;
+  height: 42px;
+}
+.ReviewFeedback-Btn {
+  width: 195px;
+  height: 38px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ReviewFeedback-Option-Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 194px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.ReviewFeedback-Option-Btn:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 194px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.ReviewFeedback-Active-Btn {
+  width: 195px;
+  height: 38px;
+  cursor: pointer;
+  background: #000000;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.ReviewFeedback-Option-list {
+  position: absolute;
+  top: 40px;
+  /* width: 194px; */
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.ReviewFeedback-Card-Container {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  height: 233px;
+  margin-top: 125px;
+}
+.ReviewFeedback-Content {
+  width: 890px;
+  margin: 0px auto;
+}
+.ReviewFeedback-Content > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ReviewFeedback-Add-Btn-Box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 34px;
+  margin: 20px auto 0px auto;
+  gap: 7px;
+}
+.ReviewFeedback-Btn-Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.ReviewFeedback-Btn-Text {
+  cursor: pointer;
+  height: 30px;
+}
+.ReviewFeedback-Btn-Text > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.Review-Last-Wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 960px;
+  margin: 25px 0px;
+}

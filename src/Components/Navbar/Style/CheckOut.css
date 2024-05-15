@@ -1,0 +1,133 @@
+.CheckOut-Title {
+  margin-top: 30px;
+}
+.CheckOut-Title > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.CheckOut-Wrapper {
+  max-width: 944px;
+  margin: 35px auto 0px auto;
+}
+.CheckOut-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+}
+.Checkout-Line {
+  position: absolute;
+  top: 23px;
+  left: 78px;
+  width: 790px;
+  border: 0.5px solid rgba(0, 0, 0, 0.71);
+}
+.CheckOut-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 115px;
+  z-index: 1;
+}
+.CheckOut-Paragraph {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 7px 0px 0px 0px;
+}
+.CheckOut-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+}
+.circleActive {
+  background-color: black;
+  color: #ffffff;
+}
+.circleDeactive {
+  background-color: #ffffff;
+  color: #000000;
+}
+.CheckOut-Submit-button {
+  border: 1px solid #000000;
+  margin: 12px 0px;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.CheckOut-Save-button {
+  border: 1px solid #000000;
+  margin: 12px 0px;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.Text-Field {
+  width: 300px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  outline: none;
+  padding-left: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.CheckOut-Last-Wrapper {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 1195px;
+  margin: 40px auto 250px auto;
+  /* border: 1px solid red; */
+}
+.CheckOut-Left-Div {
+  width: 572px;
+}
+.CheckOut-Right-Div {
+  display: flex;
+  justify-content: space-between;
+  width: 1191px;
+}
+.CheckOut-Btn-Container {
+  width: 333px;
+  margin: 40px auto 0px auto;
+}
+.CheckOut-Save-Btn,
+.Checkout-Btn {
+  width: 333px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.71);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

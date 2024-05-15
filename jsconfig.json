@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "jsx": "preserve",
+      "paths": {
+        "Components": ["Components"],
+        "utils": ["utils"],
+        "Pages": ["Pages"],
+        "actions": ["actions"],
+        "assets": ["assets"],
+        "fetchy": ["fetchy"],
+        "helpers": ["helpers"],
+        "styles": ["styles"],
+        "customHooks": ["customHooks"],
+        "common": ["common"]
+      }
+    },
+    "include": ["src"]
+  }

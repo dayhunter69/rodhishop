@@ -1,0 +1,23 @@
+.brandlist-Checkbox {
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 14px;
+}
+.brandlist-Checkbox::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 28px;
+  line-height: 21px;
+  color: #000000;
+  transform: scale(0);
+}
+.brandlist-Checkbox:checked::before {
+  transform: rotate(17deg);
+}

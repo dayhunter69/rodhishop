@@ -1,0 +1,13 @@
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-radius: unset !important;
+  border: 0.619404px solid rgba(0, 0, 0, 0.71) !important;
+}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+  border-radius: unset !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  box-shadow: none !important;
+  border-radius: 0px !important;
+}
+

@@ -1,0 +1,23 @@
+.RequestForWarranty-Radio-btn {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.RequestForWarranty-Radio-btn::before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  width: 9.5px;
+  height: 9.5px;
+  background-color: #000000;
+  transform: translate(-50%, -50%) scale(0);
+}
+.RequestForWarranty-Radio-btn:checked::before {
+  transform: translate(-50%, -50%) scale(1);
+}

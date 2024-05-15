@@ -1,0 +1,39 @@
+.SubMenuItem-Container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 205px;
+  position: relative;
+}
+.Menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 42px;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+}
+.Menu_list:hover {
+  width: 205px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+}
+.Right_Arrow {
+  position: absolute;
+  right: 15px;
+}
+.SubMenuItem-Box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 205px;
+  height: 42px;
+  border: 1px solid red;
+  position: absolute;
+  left: 100%;
+}

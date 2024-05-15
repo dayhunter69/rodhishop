@@ -1,0 +1,213 @@
+.PaymentMethod-Container {
+  /* width: 600px; */
+}
+.PaymentMethod-Title > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.PaymentMethod-Payment-Form {
+  width: 526px;
+  margin-top: 30px;
+  border-bottom: 1px solid #000000;
+}
+.PaymentMethod-Cash-Container {
+  display: flex;
+  align-items: center;
+  height: 93px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: none;
+}
+.PaymentMethod-First-Whole-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40px;
+  height: 70px;
+}
+.PaymentMethod-First-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98px;
+  height: 44px;
+}
+.CheckBox1 {
+  width: 13px;
+  height: 13px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.img-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 46.3px;
+}
+.Payment-Method-Img {
+  width: 72px;
+}
+
+.PaymentMethod-Info > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.PaymentMethod-Whole-Wrapper {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  margin-left: 40px;
+}
+.PaymentMethod-Visa-Container {
+  display: flex;
+  align-items: center;
+  height: 93px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: none;
+}
+.PaymentMethod-or-container {
+  margin: 0px 9px;
+}
+.PaymentMethod-or-container > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.PaymentMethod-Second-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94px;
+  height: 50px;
+}
+.CheckBox2 {
+  width: 13px;
+  height: 13px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.PaymentMethod-Card-Container {
+  width: 571px;
+  margin-top: 40px;
+}
+.CardDetails-Top-Img {
+  display: flex;
+  justify-content: space-between;
+  width: 159px;
+  margin-top: 15px;
+}
+.CardDetails-Img-Container {
+  /* width: 79px; */
+  height: 50px;
+}
+.CardDetails-Img {
+  width: 74.07px;
+  height: 50px;
+}
+.CardDetails-Form-Container {
+  margin-top: 9px;
+}
+.CardDetails-Text-Field {
+  width: 569px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  outline: none;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.CardDetails-expiry-date {
+  margin-bottom: 20px;
+}
+.CardDetails-expiry-date > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.71);
+}
+.CardDetails-Date-container {
+  display: flex;
+  justify-content: space-between;
+  width: 337px;
+  margin-bottom: 20px;
+}
+.CardDetails-Month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.71);
+}
+.CardDetails-Year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.71);
+}
+.CardDetails-Pay-Btn {
+  width: 182px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  cursor: pointer;
+  background-color: transparent;
+}

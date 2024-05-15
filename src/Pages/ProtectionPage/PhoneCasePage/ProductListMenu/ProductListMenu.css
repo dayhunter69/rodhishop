@@ -1,0 +1,29 @@
+.ProductListMenu_Container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 205px;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+.Product_Menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 42px;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+}
+.Product_Menu_list:hover {
+  width: 205px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+}

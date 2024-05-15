@@ -1,0 +1,156 @@
+.SidebarPage-Wrapper {
+  position: fixed;
+  top: 1px;
+  z-index: 3;
+  width: 205px;
+  height: 100%;
+  background: #ffffff;
+  left: 0;
+}
+
+.SidebarPage-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 185px;
+  height: 320px;
+  margin: 16px auto 0px auto;
+}
+
+.SidebarPage-Logo {
+  width: 122px;
+  margin: 7px auto 0px auto;
+}
+
+.SidebarPage-Yantram-Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.Main_Menu_Div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 122px;
+  height: 35px;
+  margin: 16px auto 0px auto;
+}
+
+.Left_Arrow_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+}
+
+.SidebarPage_Main_Menu_Container {
+  width: 78px;
+  cursor: pointer;
+}
+
+.SidebarPage_Main_Menu_Container > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.SidebarPage-Product-Name {
+  width: 109px;
+  margin: 16px auto 0px auto;
+}
+
+.SidebarPage-Product-Name > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.SidebarPage-Icon-Btn {
+  display: flex;
+  align-items: center;
+  width: 182px;
+  height: 70px;
+  background: #f6f6f6;
+  border-radius: 9px;
+  margin: 0px auto 10px auto;
+}
+
+.SidebarPage-Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+}
+
+.SidebarPage-Name {
+  margin-left: 10px;
+}
+
+.SidebarPage-Name > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* For Protection Page */
+.SidebarProtectionPage-Wrapper {
+  position: fixed;
+  top: 1px;
+  z-index: 3;
+  width: 235px;
+  height: 100%;
+  background: #ffffff;
+}
+.SidebarProtectionPage-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  height: 320px;
+  margin: 16px auto 0px auto;
+}
+.SidebarProtectionPage-Icon-Btn {
+  display: flex;
+  align-items: center;
+  width: 216px;
+  height: 70px;
+  background: #f6f6f6;
+  border-radius: 9px;
+  margin: 0px auto 10px auto;
+}
+.SidebarProtectionPage-Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-left: 7px;
+}
+.SidebarProtctionPage-Name {
+  margin-left: 7px;
+}
+.SidebarProtctionPage-Name > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #000000;
+}

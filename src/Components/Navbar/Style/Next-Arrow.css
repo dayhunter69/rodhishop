@@ -1,0 +1,14 @@
+.Next_Arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 180px;
+  right: -43px;
+}
+
+/* For Mobile Responsive */
+
+@media (max-width: 639px) {
+  .Next_Arrow {
+    display: none;
+  }
+}

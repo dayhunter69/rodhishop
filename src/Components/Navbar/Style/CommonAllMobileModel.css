@@ -1,0 +1,160 @@
+/* Apple css start */
+.Dropdown-Apple-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 810px;
+  height: 405px;
+  background: #ffffff;
+  position: absolute;
+  left: -8px;
+  border-radius: 3px;
+}
+.Apple-container-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+  height: 360px;
+}
+.Apple-text-container {
+  width: 632px;
+}
+.Apple-driver-jack {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 632px;
+}
+.Apple-driver {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+}
+.AppleLefticon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 360px;
+}
+.Apple-feature {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.Apple-feature-Item {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/* Apple css end */
+
+/* samsung css start */
+.Dropdown-Samsung-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 770px;
+  height: 445px;
+  background: #ffffff;
+  position: absolute;
+  left: 8px;
+  border-radius: 3px;
+}
+.Samsung-container-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 725px;
+  height: 393px;
+}
+.Samsung-text-container {
+  width: 570px;
+}
+.Samsung-driver-jack {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 570px;
+}
+.Samsung-icon-box {
+  display: flex;
+  width: 130px;
+}
+.Samsung-Crossicon {
+  width: 47px;
+  cursor: pointer;
+}
+.SamsungAllicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Samsung-driver {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+
+/* Samsung css end */
+
+/* Huawei css start */
+.Huawei-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 850px;
+  height: 435px;
+  background: #ffffff;
+  border-radius: 4px;
+  position: absolute;
+  left: -30px;
+}
+.Huawei-container-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 400px;
+}
+.Huawei-Crossicon {
+  width: 50px;
+  cursor: pointer;
+}
+.Huawei-icon-box {
+  display: flex;
+  width: 140px;
+}
+
+.Huawei-text-container {
+  width: 650px;
+  display: flex;
+}
+.Huawei-driver-jack {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 650px;
+}
+.Huawei-driver {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+}
+/* Huawei css end */
+
+/* Google css start */
+.Dropdown-Google-Wrapper {
+  width: 844px;
+  height: 354px;
+  background: #ffffff;
+  position: absolute;
+  left: -30px;
+  border-radius: 3px;
+}
+/* Google css end */

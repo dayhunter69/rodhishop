@@ -1,0 +1,63 @@
+.UserAdress-Checkbox {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border: 0.890411px solid rgba(0, 0, 0, 0.71);
+  vertical-align: middle;
+  cursor: pointer;
+}
+.UserAdress-Checkbox::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 29px;
+  line-height: 25px;
+  color: #000000;
+  transform: scale(0);
+}
+.UserAdress-Checkbox:checked::before {
+  transform: rotate(17deg);
+}
+
+.UserAddress-Province-Option-Container,
+.UserAddress-District-Option-Container,
+.UserAddress-Area-Option-Container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  overflow-y: scroll;
+  width: 382px;
+  height: 150px;
+  border: 0.890411px solid rgba(0, 0, 0, 0.71);
+  border-top: 0;
+  z-index: 3;
+  background-color: #ffffff;
+}
+.UserAddress-District-Option-Container {
+  z-index: 2;
+}
+.UserAddress-Area-Option-Container {
+  z-index: 1;
+}
+.UserAddress-Area-Option-Container::-webkit-scrollbar,
+.UserAddress-District-Option-Container::-webkit-scrollbar,
+.UserAddress-Province-Option-Container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.UserAddress-District-Option-Container::-webkit-scrollbar-track,
+.UserAddress-Area-Option-Container::-webkit-scrollbar-track,
+.UserAddress-Province-Option-Container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.UserAddress-District-Option-Container::-webkit-scrollbar-thumb,
+.UserAddress-Area-Option-Container::-webkit-scrollbar-thumb,
+.UserAddress-Province-Option-Container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 2px;
+}
+.UserAddress-District-Option-Container::-webkit-scrollbar-thumb:hover,
+.UserAddress-Area-Option-Container::-webkit-scrollbar-thumb:hover,
+.UserAddress-Option-Container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

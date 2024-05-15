@@ -1,0 +1,22 @@
+.cancel-option-container {
+  width: 542px;
+  height: 246px;
+  /* position: absolute; */
+  /* top: 50px;
+  left: 0; */
+  overflow-y: scroll;
+  border: 0.890411px solid rgba(0, 0, 0, 0.71);
+  border-top: 0;
+  background-color: #ffffff;
+}
+.cancel-option-container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.cancel-option-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.cancel-option-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 2px;
+}

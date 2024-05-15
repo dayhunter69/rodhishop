@@ -1,0 +1,78 @@
+.CheckOutModal-Wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.CheckOutModal-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 551px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CheckOutModal-Box {
+  width: 516px;
+}
+.CheckOutModal-Img {
+  width: 485px;
+  height: 239px;
+  margin: 0px auto;
+}
+.Congratulation-Gif {
+  width: 483px;
+  height: 237px;
+}
+.CheckOutModal-paragraph {
+  width: 490px;
+  margin: 15px auto 26px auto;
+}
+.CheckOutModal-paragraph > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  text-align: center;
+}
+.CheckOutModal-Congratulations {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.CheckOutModal-Button-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 515px;
+}
+.CheckOutModal-first-btn-Container {
+  width: 250px;
+  height: 52px;
+}
+.CheckOutModal-second-btn-Container {
+  width: 250px;
+  height: 52px;
+}
+.CheckOutModal-Continue-Shopping,
+.CheckOutModal-Have-Any-Feedback {
+  width: 248px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: transparent;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.HomeVideo-title p{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.HomeVideo-Container {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  width: 93%;
+  margin: 0 auto 50px auto;
+}
+.Video1 {
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}
+.Video2 { 
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.Video3 {
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}

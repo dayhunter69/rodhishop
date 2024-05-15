@@ -1,0 +1,203 @@
+.ContactUs-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 48px;
+}
+.ContactUs-Container {
+  max-width: 926px;
+  /* margin: 20px auto 0px auto; */
+}
+.ContactUs-heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.71);
+}
+.ContactUs-sub-heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  padding-top: 20px;
+}
+.ContactUs-Social-media-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 625px;
+  height: 56px;
+  margin: 15px auto 0px auto;
+}
+.ContactUs-Social-media-Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px;
+  height: 56px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+.ContactUs-info {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.71);
+  padding-top: 60px;
+}
+.ContactUs-Text-Area {
+  width: 504px;
+  margin: 20px auto 0px auto;
+}
+.ContactUs-textarea-field {
+  width: 502px;
+  height: 100px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  resize: none;
+  outline: none;
+  padding-top: 8px;
+  padding-left: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.ContactUs-two-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 502px;
+  margin: 20px auto 0px auto;
+}
+.ContactUs-fullname-field,
+.ContactUs-number-field {
+  width: 248px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  padding-left: 20px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  outline: none;
+}
+.ContactUs-Submit-btn-box {
+  width: 148px;
+  margin: 12px auto 0px auto;
+}
+.ContactUs-Submit-btn {
+  width: 146px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.71);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  cursor: pointer;
+  background-color: transparent;
+}
+.MeetUs-At-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1068px;
+  height: 500px;
+  margin: 60px auto 120px auto;
+}
+.MeetUs-At-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  padding-top: 73px;
+}
+.MeetUs-At-direction-card {
+  width: 500px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MeetUs-At-bussiness-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 207px;
+}
+.MeetUs-At-para1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+}
+.MeetUs-At-Phone-Box {
+  margin-top: 50px;
+}
+.MeetUs-At-Phone-icon {
+  width: 50px;
+  /* height: 40px; */
+  margin: auto;
+}
+.MeetUs-At-phone-icon {
+  width: 49px;
+  /* height: 49px; */
+}
+.MeetUs-At-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.71);
+  text-align: center;
+  padding-top: 13px;
+}
+.MeetUs-At-number {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+}
+.MeetUs-At-Email-Box {
+  width: 207px;
+  margin-top: 40px;
+}

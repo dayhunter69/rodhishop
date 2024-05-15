@@ -1,0 +1,15 @@
+.Pre_Arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 180px;
+  left: -42px;
+  z-index: 1;
+}
+
+/* For Mobile Responsive */
+
+@media (max-width: 639px) {
+  .Pre_Arrow {
+    display: none;
+  }
+}

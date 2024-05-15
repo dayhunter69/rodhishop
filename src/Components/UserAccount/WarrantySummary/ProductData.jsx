@@ -1,0 +1,38 @@
+import img1 from "../../images/headset-earbuds-transparent.jpg";
+
+export const ProductData = [
+  {
+    id: 1,
+    category: "warrantyrequest",
+    img: img1,
+    ticketNumber: "YN0123",
+    requestDate: "Jan 29, 2023",
+    btnName: "request for warranty",
+    productName: "Tuddrom M01",
+    productColor: "black",
+    Rs: "749",
+    orderDate: "Jan 26, 2023",
+    requestforwarranty: "Jan 29, 2023",
+    problem: "not working properly",
+    status: "request for warranty",
+    needHelp: "Still Need Help?",
+    callUs: "Better Call Us",
+  },
+  {
+    id: 2,
+    category: "verified",
+    img: img1,
+    ticketNumber: "YN0123",
+    requestDate: "Jan 29, 2023",
+    btnName: "verified",
+    productName: "Tuddrom M01",
+    productColor: "black",
+    Rs: "749",
+    orderDate: "Jan 26, 2023",
+    requestforwarranty: "Jan 29, 2023",
+    problem: "not working properly",
+    status: "request for warranty",
+    needHelp: "Still Need Help?",
+    callUs: "Better Call Us",
+  },
+];

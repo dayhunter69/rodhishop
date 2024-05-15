@@ -1,0 +1,75 @@
+.Email-Checkbox,
+.Sms-Checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.Email-Checkbox::before,
+.Sms-Checkbox::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 31px;
+  line-height: 16px;
+  color: #000000;
+  transform: scale(0);
+}
+
+.Email-Checkbox:checked::before,
+.Sms-Checkbox:checked::before {
+  transform: rotate(17deg);
+}
+.Email-Field {
+  width: 350px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.69);
+  outline: none;
+  padding-left: 12px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.69);
+}
+.Sms-Field {
+  width: 280px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.69);
+  outline: none;
+  padding-left: 12px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.69);
+}
+.Arrow-icon {
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  color: #000000;
+}
+/* For Mobile Responsive */
+@media (max-width: 639px) {
+  .Email-Field {
+    width: 311px;
+  }
+  .Sms-Field {
+    width: 248px;
+  }
+  .Email-Checkbox::before,
+  .Sms-Checkbox::before {
+    font-size: 27px;
+    line-height: 19px;
+  }
+}

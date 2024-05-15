@@ -1,0 +1,88 @@
+.HamburgerMenuBar-Container {
+  position: fixed;
+  top: 1px;
+  z-index: 100;
+  width: 188px;
+  /* height: 100%; */
+  height: 100vh;
+  background: #ffffff;
+  /* transition:0.1s;
+    transition-timing-function: ease-in-out; */
+  display: none;
+  left: 0px;
+}
+
+.MenuBar-Button-Container {
+  width: 173px;
+  margin: 0px auto;
+}
+
+.HamburgerMenuBar-Logo {
+  width: 122px;
+  margin: 7px auto 0px auto;
+}
+
+.HamburgerMenuBar-Yantram-Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.Parent-Button-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 165px;
+  height: 468px;
+  margin: 16px auto 0px auto;
+}
+
+.Child-Button-div {
+  width: 165px;
+  height: 72px;
+}
+
+.HamburgerMenuBar-Button {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 163px;
+  height: 70px;
+  background: #f6f6f6;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+}
+
+.HamburgerMenuBar-Register-Btn {
+  width: 158px;
+  height: 36px;
+  margin: 10px auto 0px auto;
+}
+
+.HamburgerMenuBar-Last-Button {
+  width: 158px;
+  height: 34px;
+  border: none;
+  outline: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+}
+
+@media (max-width: 600px) {
+  .HamburgerMenuBar-Container {
+    display: block;
+  }
+}

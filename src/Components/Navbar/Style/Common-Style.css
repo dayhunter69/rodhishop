@@ -1,0 +1,131 @@
+.Common-middle-Container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.Common-Cross-icon-Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid red; */
+}
+.Common-Cross-Icon-Conatiner {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  position: absolute;
+  left: 40px;
+  gap: 18px;
+}
+.Common-Cross-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  /* border: 1px solid red; */
+}
+.Common-Brand-Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #000000;
+}
+.Common-Logo {
+  width: 37px;
+  height: 38px;
+  border-radius: 50%;
+}
+.Google-Pixel-Logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.Huawei-Logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.Common-Model-Series {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  height: 40px;
+  /* border: 1px solid red; */
+}
+.Common-Button-Style {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.66);
+  width: 185px;
+  height: 31px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.Huawei-Button-Style {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.66);
+  width: 211px;
+  height: 31px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.huaweiActive {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 211px;
+  height: 31px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  cursor: pointer;
+}
+.activeCommon {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 185px;
+  height: 31px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  cursor: pointer;
+}

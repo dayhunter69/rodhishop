@@ -1,0 +1,30 @@
+.seamless-half-carousel {
+  max-width: 1070px;
+  display: flex;
+  column-gap: 112.5px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 639px) {
+  .seamless-half-carousel {
+    margin: 0px 12px;
+    column-gap: 16px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .seamless-half-carousel::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .seamless-half-carousel::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  .seamless-half-carousel::-webkit-scrollbar-thumb {
+    background-color: #fff;
+  }
+  .seamless-half-carousel::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+  }
+}
