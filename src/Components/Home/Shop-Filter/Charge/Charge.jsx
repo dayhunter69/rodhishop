@@ -1,53 +1,53 @@
-import React, { useState } from "react";
-import Cable from "../Cable/Cable";
-import Power from "../Power/Power";
-import QiCharger from "../QiCharger/QiCharger";
-import WallCharger from "../WallCharger/WallCharger";
-import img1 from "../../../images/charger.png";
-import img2 from "../../../images/charger2.png";
-import img3 from "../../../images/cable.png";
-import img4 from "../../../images/cable2.png";
-import img5 from "../../../images/powerbank.png";
-import img6 from "../../../images/powerbank2.png";
-import img7 from "../../../images/qi charger.png";
-import img8 from "../../../images/qi charger2.png";
+import React from 'react';
+// import Cable from '../Cable/Cable';
+// import Power from '../Power/Power';
+// import QiCharger from '../QiCharger/QiCharger';
+import WallCharger from '../WallCharger/Backdrop';
+// import img1 from '../../../images/charger.png';
+// import img2 from '../../../images/charger2.png';
+// import img3 from '../../../images/cable.png';
+// import img4 from '../../../images/cable2.png';
+// import img5 from '../../../images/powerbank.png';
+// import img6 from '../../../images/powerbank2.png';
+// import img7 from '../../../images/qi charger.png';
+// import img8 from '../../../images/qi charger2.png';
 
-export const chargeCategory = [
-  {
-    id: 1,
-    name: "wall charger",
-    icon1: img1,
-    icon2: img2,
-  },
-  {
-    id: 2,
-    name: "Cable",
-    icon1: img3,
-    icon2: img4,
-  },
-  {
-    id: 3,
-    name: "power bank",
-    icon1: img5,
-    icon2: img6,
-  },
-  {
-    id: 4,
-    name: "qi charger",
-    icon1: img7,
-    icon2: img8,
-  },
-];
+// export const chargeCategory = [
+//   {
+//     id: 1,
+//     name: 'wall charger',
+//     icon1: img1,
+//     icon2: img2,
+//   },
+//   {
+//     id: 2,
+//     name: 'Cable',
+//     icon1: img3,
+//     icon2: img4,
+//   },
+//   {
+//     id: 3,
+//     name: 'power bank',
+//     icon1: img5,
+//     icon2: img6,
+//   },
+//   {
+//     id: 4,
+//     name: 'qi charger',
+//     icon1: img7,
+//     icon2: img8,
+//   },
+// ];
 
 const Charge = () => {
-  const [activeTabMenu, setActiveTabMenu] = useState(null);
+  // const [activeTabMenu, setActiveTabMenu] = useState(null);
 
-  const handleTab = (index) => {
-    setActiveTabMenu(index);
-  };
+  // const handleTab = (index) => {
+  //   setActiveTabMenu(index);
+  // };
   return (
     <>
-      <div className="max-w-[630px] h-[81px] flex items-center mx-auto my-[52px] mobile:hidden mobile:my-0">
+      {/* <div className="max-w-[630px] h-[81px] flex items-center mx-auto my-[52px] mobile:hidden mobile:my-0">
         <div className="w-[600px] flex items-center justify-around mx-auto my-0">
           {chargeCategory.map((data, index) => {
             return (
@@ -58,12 +58,13 @@ const Charge = () => {
                 <div
                   className={`${
                     activeTabMenu === index
-                      ? "w-[60px] h-[60px] flex items-center justify-center bg-black rounded-[50%] cursor-pointer"
-                      : "w-[60px] h-[60px] flex items-center justify-center bg-secondary-whitesmoke rounded-[50%] cursor-pointer"
+                      ? 'w-[60px] h-[60px] flex items-center justify-center bg-black rounded-[50%] cursor-pointer'
+                      : 'w-[60px] h-[60px] flex items-center justify-center bg-secondary-whitesmoke rounded-[50%] cursor-pointer'
                   }`}
                   onClick={() => handleTab(index)}
                 >
                   <img
+                    alt="ok"
                     src={activeTabMenu === index ? data.icon2 : data.icon1}
                     width="39"
                     height="39"
@@ -79,8 +80,8 @@ const Charge = () => {
             );
           })}
         </div>
-      </div>
-      {(() => {
+      </div> */}
+      {/* {(() => {
         if (activeTabMenu === 0) return <WallCharger />;
         else if (activeTabMenu === 1) {
           return <Cable />;
@@ -91,7 +92,8 @@ const Charge = () => {
         } else {
           return <Cable />;
         }
-      })()}
+      })()} */}
+      <WallCharger />
     </>
   );
 };

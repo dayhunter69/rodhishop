@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 // import "../../Navbar/Style/Global-Style.css";
-import img1 from "../../images/headset-earbuds-transparent.jpg";
-import img2 from "../../images/headset-package.jpg";
-import img3 from "../../images/hybrid-enc-tws-headset.jpg";
-import img4 from "../../images/bluetooth-headphones.jpg";
-import img5 from "../../images/bluetooth-headphones-package.jpg";
-import img6 from "../../images/headset-ergonomic.jpg";
-import img7 from "../../images/tws-headset-package.jpg";
-import img8 from "../../images/crystal-color-tws-earbuds.jpg";
-import img9 from "../../images/crystal-color-tws-earbuds-packaging.jpg";
-import img10 from "../../images/crystal-color-tws-earbuds-case.jpg";
-import NextArrow from "../Shop-Filter/Cable/Carousel/NextArrow/NextArrow";
-import PreviousArrow from "../Shop-Filter/Cable/Carousel/PreviousArrow/PreviousArrow";
-import { Icon } from "@iconify/react";
-import { Tooltip, tooltipClasses } from "@mui/material";
-import { styled } from "@mui/material/styles";
+import img1 from '../../images/headset-earbuds-transparent.jpg';
+import img2 from '../../images/headset-package.jpg';
+import img3 from '../../images/hybrid-enc-tws-headset.jpg';
+import img4 from '../../images/bluetooth-headphones.jpg';
+import img5 from '../../images/bluetooth-headphones-package.jpg';
+import img6 from '../../images/headset-ergonomic.jpg';
+import img7 from '../../images/tws-headset-package.jpg';
+import img8 from '../../images/crystal-color-tws-earbuds.jpg';
+import img9 from '../../images/crystal-color-tws-earbuds-packaging.jpg';
+import img10 from '../../images/crystal-color-tws-earbuds-case.jpg';
+import NextArrow from '../Shop-Filter/Cable/Carousel/NextArrow/NextArrow';
+import PreviousArrow from '../Shop-Filter/Cable/Carousel/PreviousArrow/PreviousArrow';
+// import { Icon } from '@iconify/react';
+// import { Tooltip, tooltipClasses } from '@mui/material';
+// import { styled } from '@mui/material/styles';
 
 export const TreandingProductData = [
   {
@@ -25,67 +25,67 @@ export const TreandingProductData = [
     Img: img1,
     hoverImg: img2,
     buttonhoverImg: img3,
-    trending: "#1 trending",
-    title: "acefast t2",
-    productName: "earbud",
-    price: "NRS 749",
+    trending: '#1 trending',
+    title: 'acefast t2',
+    productName: 'earbud',
+    price: 'NRS 749',
   },
   {
     id: 2,
     Img: img4,
     hoverImg: img5,
     buttonhoverImg: img3,
-    trending: "#2 trending",
-    title: "acefast t2",
-    productName: "earbud",
-    price: "NRS 749",
+    trending: '#2 trending',
+    title: 'acefast t2',
+    productName: 'earbud',
+    price: 'NRS 749',
   },
   {
     id: 3,
     Img: img6,
     hoverImg: img7,
     buttonhoverImg: img3,
-    trending: "#3 trending",
-    title: "acefast t2",
-    productName: "earbud",
-    price: "NRS 749",
+    trending: '#3 trending',
+    title: 'acefast t2',
+    productName: 'earbud',
+    price: 'NRS 749',
   },
   {
     id: 4,
     Img: img8,
     hoverImg: img9,
     buttonhoverImg: img10,
-    trending: "#4 trending",
-    title: "acefast t2",
-    productName: "earbud",
-    price: "NRS 749",
+    trending: '#4 trending',
+    title: 'acefast t2',
+    productName: 'earbud',
+    price: 'NRS 749',
   },
   {
     id: 5,
     Img: img1,
     hoverImg: img2,
     buttonhoverImg: img3,
-    trending: "#5 trending",
-    title: "acefast t2",
-    productName: "earbud",
-    price: "NRS 749",
+    trending: '#5 trending',
+    title: 'acefast t2',
+    productName: 'earbud',
+    price: 'NRS 749',
   },
 ];
-const BootstrapTooltip = styled(({ className, ...props }) => (
-  <Tooltip {...props} classes={{ popper: className }} />
-))(({ theme }) => ({
-  [`& .${tooltipClasses.tooltip}`]: {
-    backgroundColor: theme.palette.common.white,
-    color: "black",
-    boxShadow: theme.shadows[1],
-    // border: "1px solid black",
-    fontSize: 11,
-  },
-}));
+// const BootstrapTooltip = styled(({ className, ...props }) => (
+//   <Tooltip {...props} classes={{ popper: className }} />
+// ))(({ theme }) => ({
+//   [`& .${tooltipClasses.tooltip}`]: {
+//     backgroundColor: theme.palette.common.white,
+//     color: 'black',
+//     boxShadow: theme.shadows[1],
+//     // border: "1px solid black",
+//     fontSize: 11,
+//   },
+// }));
 const TrendingProduct = () => {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -130,9 +130,9 @@ const TrendingProduct = () => {
             className="font-Arial not-italic font-bold text-Heading text-center uppercase
              text-primary mobile:text-Paragraph2"
           >
-            Trending Product
+            How To?
           </p>
-          <BootstrapTooltip
+          {/* <BootstrapTooltip
             title="In our magnificent showcase, trending products emerge victorious through a powerful combination of soaring views,
              captivating clicks, impressive sales, enthusiastic engagement, and ecstatic rave reviews!"
             placement="right"
@@ -143,7 +143,7 @@ const TrendingProduct = () => {
               height="19"
               className="cursor-pointer"
             />
-          </BootstrapTooltip>
+          </BootstrapTooltip> */}
         </div>
         <Slider {...settings} className="mt-[22px]">
           {TreandingProductData.map((data, index) => {

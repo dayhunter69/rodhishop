@@ -1,68 +1,55 @@
-import React, { useState } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import img1 from "../../../images/acefast-a4-wall-charger.jpg";
-import img2 from "../../../images/wall-charger-package-black.jpg";
-import img3 from "../../../images/wall-charger-output.jpg";
-import img4 from "../../../images/single-usb-c-charger.jpg";
-import img5 from "../../../images/single-usb-c-charger-eu-packaging.jpg";
-import img6 from "../../../images/dual-port-charger-eu.jpg";
-import img7 from "../../../images/dual-port-charger-eu-package.jpg";
-import img8 from "../../../images/usba-port-wall-charger-eu-main.jpg";
-import img9 from "../../../images/usba-port-wall-charger-eu-packaging-white.jpg";
-import img10 from "../../../images/gan-single-usb-c-charger.jpg";
-import NextArrow from "../Cable/Carousel/NextArrow/NextArrow";
-import PreviousArrow from "../Cable/Carousel/PreviousArrow/PreviousArrow";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-export const wallchargerData = [
+import NextArrow from '../Cable/Carousel/NextArrow/NextArrow';
+import PreviousArrow from '../Cable/Carousel/PreviousArrow/PreviousArrow';
+import { useNavigate } from 'react-router-dom';
+
+import img1 from '../../../../StudioBoxImage/LightBox/img1.webp';
+import img2 from '../../../../StudioBoxImage/LightBox/img2.webp';
+import img3 from '../../../../StudioBoxImage/LightBox/img3.webp';
+
+import img4 from '../../../../StudioBoxImage/StudioBox/img1.webp';
+import img5 from '../../../../StudioBoxImage/StudioBox/img2.webp';
+import img6 from '../../../../StudioBoxImage/StudioBox/img3.webp';
+
+export const StudioBoxData = [
   {
     id: 1,
     Img: img1,
     hoverImg: img2,
     buttonhoverImg: img3,
-    title: "acefast a4",
-    productName: "charger",
-    price: "NRS 749",
+    title: 'All ok Puluz 40cm Foldable',
+    productName: 'Studio Box with Ring Light',
+    price: 'NRS 4999',
   },
   {
     id: 2,
     Img: img4,
     hoverImg: img5,
-    buttonhoverImg: img10,
-    title: "acefast a21",
-    productName: "charger",
-    price: "NRS 749",
+    buttonhoverImg: img6,
+    title: 'Puluz 40cm 480 LED 600D',
+    productName: 'Foldable and Portable Studio Box',
+    price: 'NRS 7999',
   },
   {
     id: 3,
-    Img: img6,
-    hoverImg: img7,
-    buttonhoverImg: img3,
-    title: "acefast a25",
-    productName: "charger",
-    price: "NRS 749",
-  },
-  {
-    id: 4,
-    Img: img8,
-    hoverImg: img9,
-    buttonhoverImg: img3,
-    title: "acefast a33",
-    productName: "charger",
-    price: "NRS 749",
-  },
-  {
-    id: 5,
-    Img: img1,
-    hoverImg: img2,
-    buttonhoverImg: img3,
-    title: "acefast e9",
-    productName: "charger",
-    price: "NRS 749",
+    Img: img4,
+    hoverImg: img5,
+    buttonhoverImg: img6,
+    title: 'Puluz 40cm 480 LED 600D',
+    productName: 'Foldable and Portable Studio Box',
+    price: 'NRS 7999',
   },
 ];
-const WallCharger = () => {
+const StudioBox = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/productpage');
+  };
   const settings = {
     dots: true,
     infinite: false,
@@ -92,40 +79,41 @@ const WallCharger = () => {
         },
       },
       {
-        breakpoint: 715,
+        breakpoint: 601,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
   };
   const [hoverImage, setHoverImage] = useState();
-  const [buttonhoverImage, setButtonHoverImage] = useState();
+  const [buttonhoverImage] = useState();
   return (
     <>
-      <div className="w-[93%] mx-auto my-0">
+      <div className="w-[93%] mx-auto mt-0  mobile:w-[100%] mobile:mt-[12px]">
         <Slider {...settings}>
-          {wallchargerData.map((data, index) => {
+          {StudioBoxData.map((data, index) => {
             return (
               <div key={data.id}>
                 <div className="max-w-[320px] h-[460px] flex flex-col items-center justify-between mx-auto my-0 mobile:w-[150px] mobile:h-auto">
                   <div
-                    className="w-[319px] h-[305px] relative mobile:flex mobile:items-center mobile:justify-center mobile:w-[150px] mobile:h-[150px]"
+                    className="w-[319px] h-[305px] relative mobile:flex mobile:items-center mobile:justify-center mobile:w-[150px] mobile:h-[150px] cursor-pointer"
                     onMouseEnter={() => setHoverImage(index)}
                     onMouseLeave={() => setHoverImage()}
+                    onClick={handleClick}
                   >
                     <img
                       src={data.Img}
-                      className="mobile:w-[147px] mobile:h-[147px] w-[317px] h-[300px]"
+                      className="mobile:w-[147px] mobile:h-[147px] w-[317px] h-[250px] rounded-md"
                       alt="image1"
                     />
                     {hoverImage === index ? (
-                      <div className="w-[319px] h-[305px] absolute top-0 left-0 right-0 bottom-0">
+                      <div className="w-[319px] h-[305px] absolute top-0 left-0 right-0 bottom-0 ">
                         <img
                           src={data.hoverImg}
                           alt="image2"
-                          className="mobile:w-[147px] mobile:h-[147px] w-[317px] h-[300px]"
+                          className="mobile:w-[147px] mobile:h-[147px] w-[317px] h-[250px] rounded-md"
                         />
                       </div>
                     ) : null}
@@ -139,7 +127,13 @@ const WallCharger = () => {
                       </div>
                     ) : null}
                   </div>
-                  <div className="max-w-[320px] max-h-[125px] mt-[15px] mobile:mt-[5px] mobile:w-[146px]">
+                  <div className="max-w-[320px] min-h-[125px] mt-[15px] mobile:mt-[5px] mobile:w-[146px]">
+                    <p
+                      className="font-Arial not-italic font-normal text-red-500 text-Paragraph2 text-center
+                        pt-[8px] mobile:text-Paragraph0 mobile:pt-[2px]"
+                    >
+                      {data.price}
+                    </p>
                     <p
                       className="font-Arial not-italic font-bold text-Paragraph3 text-center uppercase
                      text-primary mobile:text-Paragraph1 mobile:font-semibold"
@@ -152,20 +146,15 @@ const WallCharger = () => {
                     >
                       {data.productName}
                     </p>
-                    <p
-                      className="font-Arial not-italic font-normal text-Paragraph2 text-center
-                       text-primary pt-[8px] mobile:text-Paragraph0 mobile:pt-[2px]"
-                    >
-                      {data.price}
-                    </p>
-                    <div className="w-[48px] mx-auto mt-[8px] mb-[3px] flex items-center justify-around">
+
+                    {/* <div className="w-[48px] mx-auto mt-[8px] mb-[3px] flex items-center justify-around">
                       <button className="w-[15px] h-[15px] rounded-[50%] cursor-pointer bg-black border border-solid border-primary"></button>
                       <button
                         className="w-[15px] h-[15px] rounded-[50%] cursor-pointer bg-white border border-solid border-primary"
                         onMouseEnter={() => setButtonHoverImage(index)}
                         onMouseLeave={() => setButtonHoverImage()}
                       ></button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -177,4 +166,4 @@ const WallCharger = () => {
   );
 };
 
-export default WallCharger;
+export default StudioBox;

@@ -1,27 +1,25 @@
-import React, { useState } from "react";
-import LifeStyle from "./LifeStyle/LifeStyle";
-import Sound from "./Sound/Sound";
-import Charge from "./Charge/Charge";
-import Apple from "./Protection/Apple/Apple";
-import AllEarbuds from "./Sound/AllEarBuds/AllEarBuds";
+import React, { useState } from 'react';
+import StudioBox from './WallCharger/StudioBox';
+import AllEarbuds from './Sound/AllEarBuds/AllEarBuds';
+import WallCharger from './WallCharger/Backdrop';
 
 export const category = [
   {
     id: 1,
-    name: "Sound",
+    name: 'Studio Box',
   },
   {
     id: 2,
-    name: "Charge",
+    name: 'Backdrop',
   },
-  {
-    id: 3,
-    name: "Protection",
-  },
-  {
-    id: 4,
-    name: "LifeStyle",
-  },
+  // {
+  //   id: 3,
+  //   name: "Protection",
+  // },
+  // {
+  //   id: 4,
+  //   name: "LifeStyle",
+  // },
 ];
 
 const ShopFilter = () => {
@@ -48,8 +46,8 @@ const ShopFilter = () => {
                 <button
                   className={
                     activeTab === index
-                      ? "flex items-center justify-center w-[200px] h-[60px] bg-white border border-solid border-primary font-Arial not-italic font-normal text-Subheading1 shadow-custom5 uppercase mobile:w-[75px] mobile:h-[30px] mobile:text-[11px] mobile:shadow-custom6"
-                      : "flex items-center justify-center w-[200px] h-[60px] bg-white border border-solid border-primary shadow-custom1 font-Arial not-italic font-normal text-Subheading1 uppercase text-primary  mobile:w-[75px] mobile:h-[30px] mobile:text-[11px]"
+                      ? 'flex items-center justify-center w-[200px] h-[60px] bg-white border border-solid border-primary font-Arial not-italic font-normal text-Subheading1 shadow-custom5 uppercase mobile:w-[75px] mobile:h-[30px] mobile:text-[11px] mobile:shadow-custom6'
+                      : 'flex items-center justify-center w-[200px] h-[60px] bg-white border border-solid border-primary shadow-custom1 font-Arial not-italic font-normal text-Subheading1 uppercase text-primary  mobile:w-[75px] mobile:h-[30px] mobile:text-[11px]'
                   }
                   onClick={() => handleTab(index)}
                 >
@@ -60,16 +58,15 @@ const ShopFilter = () => {
           })}
         </div>
         {(() => {
-          if (activeTab === 0) return <Sound />;
-          else if (activeTab === 1) {
-            return <Charge />;
-          } else if (activeTab === 2) {
-            return <Apple />;
-          } else if (activeTab === 3) {
-            return <LifeStyle />;
-          } else {
-            return <AllEarbuds />;
-          }
+          if (activeTab === 0) {
+            return <StudioBox />;
+            // } else if (activeTab === 2) {
+            //   return <Apple />;
+            // } else if (activeTab === 3) {
+            //   return <LifeStyle />;
+          } else if (activeTab === 1) {
+            return <WallCharger />;
+          } else return <AllEarbuds />;
         })()}
       </div>
     </>

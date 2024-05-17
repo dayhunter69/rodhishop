@@ -1,41 +1,41 @@
-import React from "react";
-import img1 from "../../images/help.png";
-import img2 from "../../images/apply.png";
-import img3 from "../../images/text.png";
-import img4 from "../../images/chat.png";
-import img5 from "../../images/Email.png";
-import img6 from "../../images/call.png";
+import React from 'react';
+import img1 from '../../images/help.png';
+import img2 from '../../images/apply.png';
+import img3 from '../../images/text.png';
+import img4 from '../../images/chat.png';
+import img5 from '../../images/Email.png';
+import img6 from '../../images/call.png';
 
 export const supportList = [
   {
     id: 1,
     icon: img1,
-    text: "FAQs",
+    text: 'FAQs',
   },
   {
     id: 2,
     icon: img2,
-    text: "Raise a Ticket",
+    text: 'Raise a Ticket',
   },
   {
     id: 3,
     icon: img3,
-    text: "Text",
+    text: 'Text',
   },
   {
     id: 4,
     icon: img4,
-    text: "Chat",
+    text: 'Chat',
   },
   {
     id: 5,
     icon: img5,
-    text: "Email",
+    text: 'Email',
   },
   {
     id: 6,
     icon: img6,
-    text: "Call",
+    text: 'Call',
   },
 ];
 
@@ -54,8 +54,8 @@ const Support = () => {
             className="font-Arial not-italic font-normal text-Paragraph3 text-center capitalize
             text-secondary-extraDarkOpacity mobile:text-Paragraph0"
           >
-            don’t worry we are always here to save the day during our 9-5
-            business hours
+            Don’t worry, we are always here to save your day during our 10-5
+            Working Hour
           </p>
         </div>
         <div className="max-w-[917px] flex items-center mx-auto mt-[40px] mobile:mt-[25px]">

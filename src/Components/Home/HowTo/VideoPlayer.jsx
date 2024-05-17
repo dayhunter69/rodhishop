@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import '../../Navbar/Style/OurBlog.css';
 
-const Video = ({ pro }) => {
+const VideoPlayer = ({ pro }) => {
   const videoRef = useRef([]);
   const handlePlay = () => {
     videoRef.current.play();
@@ -16,11 +16,11 @@ const Video = ({ pro }) => {
         onMouseEnter={() => handlePlay(pro.video)}
         onMouseLeave={() => handlePause(pro.video)}
       >
-        <div className="w-[350px] h-[264px] mobile:w-[255px] mobile:h-[197px]">
+        <div className="w-[350px] h-[195px] mobile:w-[255px] mobile:h-[137px]">
           <img
             src={pro.img}
             alt=""
-            className="w-[350px] h-[264px] mobile:h-[191px]"
+            className="w-[350px] h-[195px] mobile:h-[131px]"
           />
         </div>
         <div className="middle">
@@ -37,16 +37,10 @@ const Video = ({ pro }) => {
               {pro.title}
             </p>
           </div>
-          <div
-            className="w-[140px] h-[66px] flex items-center justify-center 
-               mb-0 mx-auto mobile:w-[107px] "
-          >
-            <img src={pro.bottomImg} alt="ok" />
-          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default Video;
+export default VideoPlayer;

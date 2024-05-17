@@ -29,6 +29,12 @@ const headerMenuList = [
     url: '/support',
     value: 'support',
   },
+  {
+    id: 7,
+    title: 'Track',
+    url: '/track',
+    value: 'track',
+  },
 ];
 
 export { headerMenuList };
