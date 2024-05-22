@@ -5,6 +5,10 @@ import WallCharger from './WallCharger/Backdrop';
 
 export const category = [
   {
+    id: 0,
+    name: 'All',
+  },
+  {
     id: 1,
     name: 'Studio Box',
   },
@@ -33,7 +37,7 @@ const ShopFilter = () => {
       <div className="w-[93%] mt-[70px] mb-0 mx-auto mobile:mt-[35px] mobile:w-[95%]">
         <div className=" mb-[55px] mobile:mb-[24px] mobile:mt-0">
           <p
-            className="font-Arial not-italic font-bold text-Heading uppercase text-primary  text-center
+            className="font-Arial not-italic font-bold text-Heading uppercase text-primary rodhiRed text-center
               mobile:text-Paragraph2"
           >
             shop by your need
@@ -66,7 +70,9 @@ const ShopFilter = () => {
             //   return <LifeStyle />;
           } else if (activeTab === 1) {
             return <WallCharger />;
-          } else return <AllEarbuds />;
+          } else if (activeTab === 2) {
+            return <AllEarbuds />;
+          }
         })()}
       </div>
     </>

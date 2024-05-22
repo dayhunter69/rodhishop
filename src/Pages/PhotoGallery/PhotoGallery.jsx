@@ -20,7 +20,7 @@ const PhotoGallery = () => {
 
   return (
     <div className="container mx-auto px-4">
-      <p className="font-Arial not-italic font-bold text-Heading text-center uppercase pb-5 text-primary mobile:text-Subheading1 mobile:pb-0">
+      <p className="font-Arial not-italic font-bold text-Heading text-center uppercase pb-5 mobile:text-Subheading1 mobile:pb-0 rodhiRed">
         Photo Gallery
       </p>
       <div className="flex flex-wrap justify-center md:justify-between">

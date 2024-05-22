@@ -9,35 +9,72 @@ import SidebarSoundPage from './SidebarSoundPage/SidebarSoundPage';
 import { Box, ClickAwayListener } from '@mui/material';
 import { Icon } from '@iconify/react';
 
+// export const HamburgerMenuList = [
+//   {
+//     id: 1,
+//     MenuName: 'Music',
+//     value: 'music',
+//   },
+//   {
+//     id: 2,
+//     MenuName: 'Charge',
+//     value: 'charge',
+//   },
+//   {
+//     id: 3,
+//     MenuName: 'Protection',
+//     value: 'protection',
+//   },
+//   {
+//     id: 4,
+//     MenuName: 'Lifestyle',
+//     value: 'lifestyle',
+//   },
+//   {
+//     id: 5,
+//     MenuName: 'Brand',
+//     value: 'brand',
+//   },
+//   {
+//     id: 6,
+//     MenuName: 'Support',
+//     value: 'support',
+//   },
+// ];
 export const HamburgerMenuList = [
   {
+    id: 0,
+    MenuName: 'Home',
+    value: 'home',
+  },
+  {
     id: 1,
-    MenuName: 'Music',
+    MenuName: 'StudioBox',
     value: 'music',
   },
   {
     id: 2,
-    MenuName: 'Charge',
+    MenuName: 'Backdrop',
     value: 'charge',
   },
   {
     id: 3,
-    MenuName: 'Protection',
+    MenuName: 'How To',
     value: 'protection',
   },
   {
     id: 4,
-    MenuName: 'Lifestyle',
+    MenuName: 'Contact',
     value: 'lifestyle',
   },
   {
     id: 5,
-    MenuName: 'Brand',
+    MenuName: 'Support',
     value: 'brand',
   },
   {
     id: 6,
-    MenuName: 'Support',
+    MenuName: 'Track',
     value: 'support',
   },
 ];
@@ -88,7 +125,7 @@ const HamburgerMenuBar = ({ openmenu, setOpenMenu }) => {
                       <div key={index}>
                         <div className="Child-Button-div">
                           <button
-                            className="HamburgerMenuBar-Button"
+                            className="HamburgerMenuBar-Button max-h-12"
                             onClick={() => handleClickMe(info.value)}
                           >
                             {info.MenuName}
@@ -98,7 +135,7 @@ const HamburgerMenuBar = ({ openmenu, setOpenMenu }) => {
                     );
                   })}
                 </div>
-                <div className="HamburgerMenuBar-Register-Btn">
+                <div className="HamburgerMenuBar-Register-Btn pt-8">
                   <button className="HamburgerMenuBar-Last-Button">
                     sign in / register
                   </button>

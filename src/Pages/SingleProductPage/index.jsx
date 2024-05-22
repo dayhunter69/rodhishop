@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import ImageGallary from "./ImageGallary";
-import ProductPageDetail from "./ProductPageDetail";
-import ProductTab from "./ProductTab";
-import img1 from "../../Components/images/headset-earbuds-transparent.jpg";
-import img2 from "../../Components/images/hybrid-enc-tws-headset.jpg";
-import img3 from "../../Components/images/headset-phone-calls.jpg";
-import img4 from "../../Components/images/acefast-earbud.png";
-import img5 from "../../Components/images/headset-ergonomic.jpg";
+import React, { useState } from 'react';
+import ImageGallary from './ImageGallary';
+import ProductPageDetail from './ProductPageDetail';
+import ProductTab from './ProductTab';
+import img1 from '../../Components/images/headset-earbuds-transparent.jpg';
+import img2 from '../../Components/images/hybrid-enc-tws-headset.jpg';
+import img3 from '../../Components/images/headset-phone-calls.jpg';
+import img4 from '../../Components/images/acefast-earbud.png';
+import img5 from '../../Components/images/headset-ergonomic.jpg';
 
 export const imgList = [
   { id: 1, img: img1 },
@@ -43,17 +43,29 @@ const SingleProductPage = () => {
           <div className="w-[462px] h-[462px] flex items-center justify-center">
             {(() => {
               if (imgtab === 0) {
-                return <img src={img1} className="w-[459px] h-[459px]" />;
+                return (
+                  <img src={img1} alt="ok" className="w-[459px] h-[459px]" />
+                );
               } else if (imgtab === 1) {
-                return <img src={img2} className="w-[459px] h-[459px]" />;
+                return (
+                  <img src={img2} alt="ok" className="w-[459px] h-[459px]" />
+                );
               } else if (imgtab === 2) {
-                return <img src={img3} className="w-[459px] h-[459px]" />;
+                return (
+                  <img src={img3} alt="ok" className="w-[459px] h-[459px]" />
+                );
               } else if (imgtab === 3) {
-                return <img src={img4} className="w-[459px] h-[459px]" />;
+                return (
+                  <img src={img4} alt="ok" className="w-[459px] h-[459px]" />
+                );
               } else if (imgtab === 4) {
-                return <img src={img5} className="w-[459px] h-[459px]" />;
+                return (
+                  <img src={img5} alt="ok" className="w-[459px] h-[459px]" />
+                );
               } else {
-                return <img src={img1} className="w-[459px] h-[459px]" />;
+                return (
+                  <img src={img1} alt="ok" className="w-[459px] h-[459px]" />
+                );
               }
             })()}
           </div>

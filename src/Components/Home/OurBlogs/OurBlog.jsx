@@ -101,7 +101,7 @@ const OurBlog = () => {
       <div className="max-w-[971px] mx-auto mt-0 mb-[20px] mobile:max-w-[324px]">
         <p
           className="font-Arial not-italic font-bold text-Heading 
-            uppercase text-center text-primary mobile:text-Subheading1"
+            uppercase text-center rodhiRed mobile:text-Subheading1"
         >
           Our Blogs
         </p>

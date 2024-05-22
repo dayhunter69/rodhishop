@@ -3,7 +3,7 @@ import React from 'react';
 const ExclusiveDiscount = () => {
   return (
     <div className="container mx-auto px-4 py-8 mb-12 ">
-      <p className="font-Arial not-italic font-bold text-Heading text-center uppercase pb-5 text-primary mobile:text-Subheading1 mobile:pb-0">
+      <p className="font-Arial not-italic font-bold text-Heading text-center uppercase pb-5 mobile:text-Subheading1 mobile:pb-0 rodhiRed">
         Exclusive Discount for Rodhi Sources&#39;s Client
       </p>
       <div className="flex flex-row rounded-lg shadow-lg">

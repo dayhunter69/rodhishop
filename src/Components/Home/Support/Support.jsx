@@ -45,7 +45,7 @@ const Support = () => {
       <div className="max-w-[950px] mb-[100px] mt-0 mx-auto mobile:mb-[30px]">
         <p
           className="font-Arial not-italic font-bold text-Heading text-center capitalize
-           text-primary mobile:text-Subheading1"
+           rodhiRed mobile:text-Subheading1"
         >
           support?
         </p>

@@ -42,7 +42,7 @@ export const VideoList = [
 const HowTo = () => {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -82,7 +82,7 @@ const HowTo = () => {
       <div className="max-w-[858px] mx-auto my-0 mobile:w-[275px] mt-12">
         <p
           className="font-Arial not-italic font-bold text-Heading text-center 
-           uppercase pb-[20px] text-primary mobile:text-Subheading1 mobile:pb-0"
+           uppercase pb-[20px] text-primary mobile:text-Subheading1 mobile:pb-0 rodhiRed"
         >
           How To?
         </p>

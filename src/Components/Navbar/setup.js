@@ -1,5 +1,11 @@
 const headerMenuList = [
   {
+    id: 0,
+    title: 'Home',
+    url: '/',
+    value: 'home',
+  },
+  {
     id: 1,
     title: 'StudioBox',
     url: '/sound',

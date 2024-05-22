@@ -19,3 +19,18 @@ ul {
   backdrop-filter: blur(7px);
   background-color: rgba(0, 0, 30, 0.4);
 }
+
+.rodhiRed {
+  color: #dd0b39;
+}
+
+.rodhiBlue {
+  color: #013593;
+}
+
+.rodhiRedHover:hover {
+  color: #dd0b39;
+}
+.rodhiBlueHover:hover {
+  color: #013593;
+}

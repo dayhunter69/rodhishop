@@ -1,238 +1,158 @@
-import { Icon } from "@iconify/react";
-import React from "react";
-import img1 from "../../images/esewa.png";
-import img2 from "../../images/khalti.png";
-import img3 from "../../images/imepay.png";
-import img4 from "../../images/Visa.png";
-import img5 from "../../images/call.png";
-import img6 from "../../images/tuddrom Birds copy.png";
-import img7 from "../../images/Acefast.png";
-import img8 from "../../images/ESR.png";
-import { useLocation, useNavigate } from "react-router-dom";
-import MobileFooter from "../MobileFooter/MobileFooter";
-
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaPinterest,
+  FaTiktok,
+  FaYoutube,
+} from 'react-icons/fa';
+import logo from '../../../Components/images/Logo.png';
+import company1 from '../../../OurCompanies/rodhidigital.png';
+import company2 from '../../../OurCompanies/RodhiImportExport.png';
+import company3 from '../../../OurCompanies/rodhipicture.png';
+import company4 from '../../../OurCompanies/rodhiFilms.png';
 const Footer = () => {
-  const location = useLocation();
-  if (location.pathname === "/account") return null;
-  return <FooterUI />;
-};
-
-const FooterUI = () => {
-  const navigate = useNavigate();
-
-  const clickSound = () => {
-    navigate("/sound");
+  const HowItWorks = () => {
+    const pricingSection = document.getElementById('HowItWorks');
+    pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-  const clickCharge = () => {
-    navigate("/charge");
+  const scrollToPricing = () => {
+    const pricingSection = document.getElementById('pricingSection');
+    pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-  const clickProtection = () => {
-    navigate("/protection");
+  const Portfolio = () => {
+    const pricingSection = document.getElementById('portfolio');
+    pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
-  const clickBlogs = () => {
-    navigate("/blogpage");
-  };
-  const clickContactUs = () => {
-    navigate("/contactus");
-  };
-  const clickSupport = () => {
-    navigate("/support");
+  const Testimonial = () => {
+    const pricingSection = document.getElementById('testimonial');
+    pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   return (
-    <>
-      <MobileFooter />
-      <div
-        className="w-[100%] mx-auto border border-t-2
-         border-primary border-x-0 border-b-0 mobile:hidden"
-      >
-        <div className="max-w-[1380px] flex flex-col mt-[13px] mb-0 mx-auto">
-          <div className="w-[1300px] my-0 mx-auto flex justify-between">
-            <div className="w-[110px] h-[198px] flex flex-col justify-around">
-              <p className="font-Arial not-italic font-bold text-Paragraph1 uppercase text-primary">
-                our story
-              </p>
-              <p className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary">
-                about us
-              </p>
-              <p className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary">
-                news
-              </p>
-              <p
-                className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary cursor-pointer"
-                onClick={clickBlogs}
+    <footer className="bg-gray-300 text-white py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 mobile:grid-cols-2 gap-8">
+          <div>
+            <img src={logo} className="w-[8rem] mb-4" alt="Logo" />
+            <p className="text-black mb-4 max-w-[25rem]">
+              Welcome to Rodhi Shop! Get the best directly from the source
+              itself. Best quaility for your growing business.
+            </p>
+            <div className="flex space-x-4">
+              <a
+                href="https://www.facebook.com/watch/rodhisource/?paipv=0&eav=Afa6yd10Zn-RWMIdahm1MO6Juk6-uflm9Su2Nba08Tvc8kxBSgXqSAZY7NuwvP-5Juw&_rdr"
+                className="rodhiRed rodhiBlueHover transition-colors duration-300"
               >
-                blogs
-              </p>
-              <p
-                className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary cursor-pointer"
-                onClick={clickContactUs}
+                <FaFacebookF />
+              </a>
+              <a
+                href="https://www.youtube.com/@rodhi.sources"
+                className="rodhiRed rodhiBlueHover transition-colors duration-300"
               >
-                contact us
-              </p>
-            </div>
-            <div className="w-[125px] h-[198px] flex flex-col justify-around">
-              <p
-                className="font-Arial not-italic font-bold text-Paragraph1 uppercase
-                text-primary"
+                <FaYoutube />
+              </a>
+              <a
+                href="https://www.instagram.com/p/Ci5HeMzBJIg/?hl=en"
+                className="rodhiRed rodhiBlueHover transition-colors duration-300"
               >
-                product
-              </p>
-              <p
-                className="font-Arial not-italic font-normal text-Paragraph1 uppercase
-                 text-primary cursor-pointer"
-                onClick={clickSound}
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/82490648/admin/feed/posts/"
+                className="rodhiRed rodhiBlueHover transition-colors duration-300"
               >
-                sound
-              </p>
-              <p
-                className="font-Arial not-italic font-normal text-Paragraph1 uppercase
-                 text-primary cursor-pointer"
-                onClick={clickCharge}
+                <FaLinkedinIn />
+              </a>
+              <a
+                href="https://www.pinterest.com/rodhisources/"
+                className="rodhiRed rodhiBlueHover transition-colors duration-300"
               >
-                charge
-              </p>
-              <p
-                className="font-Arial not-italic font-normal text-Paragraph1 uppercase
-                 text-primary cursor-pointer"
-                onClick={clickProtection}
+                <FaTiktok />
+              </a>
+              <a
+                href="https://www.tiktok.com/@rodhi.sources"
+                className="rodhiRed rodhiBlueHover transition-colors duration-300"
               >
-                protection
-              </p>
-              <p
-                className="font-Arial not-italic font-normal text-Paragraph1 uppercase
-               text-primary cursor-pointer"
-              >
-                lifestyle
-              </p>
-            </div>
-            <div className="w-[340px] flex flex-col">
-              <p className="font-Arial not-italic font-bold text-Heading uppercase text-primary text-center">
-                yantram
-              </p>
-              <p className="font-Arial not-italic font-normal text-Paragraph1 capitalize text-primary text-center pt-[5px]">
-                yantra for your daily life
-              </p>
-              <div className="flex items-center justify-between mt-[10px]">
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="iconoir:facebook" width="24" height="24" />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="ph:instagram-logo" width="24" height="24" />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="uit:linkedin-alt" width="24" height="24" />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="ph:tiktok-logo-light" width="24" height="24" />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="uit:twitter-alt" width="24" height="24" />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon
-                    icon="ant-design:youtube-outlined"
-                    width="24"
-                    height="24"
-                  />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="basil:pinterest-outline" width="24" height="24" />
-                </div>
-                <div className="flex items-center justify-center w-[28.5px] h-[28.5px] cursor-pointer">
-                  <Icon icon="ion:location-outline" width="24" height="24" />
-                </div>
-              </div>
-              <div className="w-[304px] mt-[30px] mx-auto mb-0">
-                <p className="font-Arial not-italic text-Paragraph1 uppercase text-primary text-center">
-                  payment partner
-                </p>
-                <div className="w-[304px] h-[35px] flex items-center mt-[8px]">
-                  <div className="flex items-center justify-center w-[76px] h-[30px]">
-                    <img src={img1} alt="" width="53" height="20" />
-                  </div>
-                  <div className="flex items-center justify-center w-[76px] h-[30px]">
-                    <img src={img2} alt="" width="53" height="20" />
-                  </div>
-                  <div className="flex items-center justify-center w-[76px] h-[30px]">
-                    <img src={img3} alt="" width="53" height="20" />
-                  </div>
-                  <div className="flex items-center justify-center w-[76px] h-[30px]">
-                    <img src={img4} alt="" width="53" height="22" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-[215px] h-[209px] flex flex-col justify-around">
-              <p
-                className="font-Arial not-italic font-bold text-Paragraph1 uppercase text-primary cursor-pointer"
-                onClick={clickSupport}
-              >
-                support
-              </p>
-              <div className="flex items-center justify-between w-[105px] h-[25px]">
-                <img src={img5} alt="" width="17" height="17" />
-                <p className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary">
-                  9812345678
-                </p>
-              </div>
-              <div className="flex items-center justify-between w-[105px] h-[25px]">
-                <img src={img5} alt="" width="17" height="17" />
-                <p className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary">
-                  9812345678
-                </p>
-              </div>
-
-              <p className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary">
-                sinamangal-9, kathmandu
-              </p>
-
-              <p className="font-Arial not-italic font-normal text-Paragraph1 text-primary">
-                hello@yantram.com
-              </p>
+                <FaPinterest />
+              </a>
             </div>
           </div>
-          {/* No one Read This Start*/}
-          <div className="w-[1300px]  h-[146px] flex justify-between mt-[30px] mb-0 mx-auto">
-            <div className="w-[110px] h-[161px] flex flex-col justify-around"></div>
-            <div className="w-[125px] h-[198px] flex flex-col justify-around"></div>
-            <div className="w-[340px]">
-              <p className="font-Arial not-italic font-normal text-Paragraph1 uppercase text-primary text-center">
-                delivery partner
-              </p>
-            </div>
-            <div className="w-[215px] h-[145px] flex flex-col justify-between">
-              <p className="font-Arial not-italic font-bold text-Paragraph1 uppercase text-primary">
-                no one read this
-              </p>
-              <p className="font-Arial not-italic font-normal text-Paragraph1 text-primary">
-                Privacy Policy
-              </p>
-              <p className="font-Arial not-italic font-normal text-Paragraph1 text-primary">
-                Term And Conditions
-              </p>
-              <p className="font-Arial not-italic font-normal text-Paragraph1 text-primary">
-                Cookies
-              </p>
-            </div>
-          </div>
-          {/* No one Read This End */}
-          <div className="w-[1300px] flex mx-auto my-0">
-            <div className="w-[671px] flex items-center justify-between mx-auto my-0">
-              <div className="w-[90px] h-[90px] rounded-[50%]">
-                <img src={img6} alt="" width="88" height="88" />
+          <div className="">
+            <ul className="list-none grid grid-cols-2 md:grid-cols-2 gap-4 text-black style-none leading-loose">
+              <div>
+                <h3 className="text-xl font-bold mb-4 rodhiRed">Links</h3>
+                <li onClick={HowItWorks} className="rodhiRedHover">
+                  Our Product
+                </li>
+                <li onClick={scrollToPricing} className="rodhiRedHover">
+                  Something
+                </li>
+                <li onClick={Portfolio} className="rodhiRedHover">
+                  Something
+                </li>
+                <li onClick={Testimonial} className="rodhiRedHover">
+                  Something
+                </li>
               </div>
-              <div className="w-[90px] h-[90px] rounded-[50%]">
-                <img src={img7} alt="" width="88" height="88" />
+              <div>
+                <h3 className="text-xl font-bold mb-4 rodhiRed">Contact Us</h3>
+                <li onClick={HowItWorks} className="rodhiRedHover">
+                  Call Us
+                </li>
+                <li onClick={scrollToPricing} className="rodhiRedHover">
+                  Our Location
+                </li>
+                <li onClick={Portfolio} className="rodhiRedHover">
+                  Something
+                </li>
+                <li onClick={Testimonial} className="rodhiRedHover">
+                  Something
+                </li>
               </div>
-              <div className="w-[90px] h-[90px] rounded-[50%]">
-                <img src={img8} alt="" width="88" height="88" />
-              </div>
-            </div>
+            </ul>
           </div>
         </div>
       </div>
-    </>
+      <div className="grid grid-cols-4 md:grid-cols-2 gap-2 w-full mx-auto">
+        <div className="flex justify-center items-center">
+          <a
+            href="http://digital.rodhigroup.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={company1} height="150px" width="150px" alt="Company 1" />
+          </a>
+        </div>
+        <div className="flex justify-center items-center">
+          <a
+            href="http://rodhisources.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={company2} height="150px" width="150px" alt="Company 2" />
+          </a>
+        </div>
+        <div className="flex justify-center items-center">
+          <a
+            href="http://pictures.rodhigroup.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={company3} height="120px" width="120px" alt="Company 3" />
+          </a>
+        </div>
+        <div className="flex justify-center items-center">
+          <a
+            href="http://films.rodhigroup.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={company4} height="120px" width="120px" alt="Company 4" />
+          </a>
+        </div>
+      </div>
+    </footer>
   );
 };
 

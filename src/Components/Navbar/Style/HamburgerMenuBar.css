@@ -41,11 +41,11 @@
 
 .Child-Button-div {
   width: 165px;
-  height: 72px;
+  height: 69px;
 }
 
 .HamburgerMenuBar-Button {
-  font-family: "Arial";
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -71,7 +71,7 @@
   height: 34px;
   border: none;
   outline: none;
-  font-family: "Arial";
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
