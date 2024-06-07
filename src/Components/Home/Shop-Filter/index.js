@@ -27,7 +27,7 @@ export const category = [
 ];
 
 const ShopFilter = () => {
-  const [activeTab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(0);
 
   const handleTab = (index) => {
     setActiveTab(index);
@@ -63,14 +63,16 @@ const ShopFilter = () => {
         </div>
         {(() => {
           if (activeTab === 0) {
-            return <StudioBox />;
+            return <AllEarbuds />;
             // } else if (activeTab === 2) {
             //   return <Apple />;
             // } else if (activeTab === 3) {
             //   return <LifeStyle />;
           } else if (activeTab === 1) {
-            return <WallCharger />;
+            return <StudioBox />;
           } else if (activeTab === 2) {
+            return <WallCharger />;
+          } else {
             return <AllEarbuds />;
           }
         })()}

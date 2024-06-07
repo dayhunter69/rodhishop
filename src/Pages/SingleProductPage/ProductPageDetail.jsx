@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { Icon } from "@iconify/react";
-import { useNavigate } from "react-router-dom";
-import { styled } from "@mui/material/styles";
-import {
-  Avatar,
-  Box,
-  ClickAwayListener,
-  Divider,
-  ListItemIcon,
-  Menu,
-  MenuItem,
-  Tooltip,
-  tooltipClasses,
-} from "@mui/material";
-import { Logout, PersonAdd, Settings } from "@mui/icons-material";
+import React, { useState } from 'react';
+import { Icon } from '@iconify/react';
+import { useNavigate } from 'react-router-dom';
+import { styled } from '@mui/material/styles';
+// import {
+//   Avatar,
+//   Box,
+//   ClickAwayListener,
+//   Divider,
+//   ListItemIcon,
+//   Menu,
+//   MenuItem,
+//   Tooltip,
+//   tooltipClasses,
+// } from '@mui/material';
+// import { Logout, PersonAdd, Settings } from '@mui/icons-material';
 
 const ProductPageDetail = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -21,35 +21,39 @@ const ProductPageDetail = () => {
   const navigate = useNavigate();
   const [count, setCount] = useState(1);
   const handleIncrement = () => {
-    setCount(count + 1);
+    if (count < 10) {
+      setCount(count + 1);
+    }
   };
   const handleDecrement = () => {
-    setCount(count - 1);
+    if (count > 1) {
+      setCount(count - 1);
+    }
   };
   const handleClick = () => {
-    navigate("/checkout");
+    navigate('/checkout');
   };
-  const handleTooltipOpen = () => {
-    setOpen(true);
-  };
-  const handleTooltipClose = () => {
-    setOpen(false);
-  };
-  const handleShareClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  // const handleTooltipOpen = () => {
+  //   setOpen(true);
+  // };
+  // const handleTooltipClose = () => {
+  //   setOpen(false);
+  // };
+  // const handleShareClick = (event) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
+  // const handleClose = () => {
+  //   setAnchorEl(null);
+  // };
   return (
     <>
       <div className="w-[413px] h-[462px] flex flex-col items-center justify-around">
         <div className="w-[334.79px]">
-          <p className="font-Arial not-italic font-normal text-Heading uppercase text-primary">
-            acefast t2 EARBUD
+          <p className="font-Arial not-italic font-normal text-Heading text-primary">
+            Puluz 40cm Foldable and Portable Studio Box with Ring Light
           </p>
         </div>
-        <div className="flex items-center w-[334.79px]">
+        {/* <div className="flex items-center w-[334.79px]">
           <div className="w-[106px] flex justify-between">
             <div className="w-[20px] h-[20px] cursor-pointer">
               <Icon icon="ic:sharp-star-purple500" width="18" height="18" />
@@ -107,31 +111,31 @@ const ProductPageDetail = () => {
             PaperProps={{
               elevation: 0,
               sx: {
-                overflow: "visible",
-                filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
+                overflow: 'visible',
+                filter: 'drop-shadow(0px 2px 8px rgba(0,0,0,0.32))',
                 mt: 1.5,
-                "& .MuiAvatar-root": {
+                '& .MuiAvatar-root': {
                   width: 32,
                   height: 32,
                   ml: -0.5,
                   mr: 1,
                 },
-                "&:before": {
+                '&:before': {
                   content: '""',
-                  display: "block",
-                  position: "absolute",
+                  display: 'block',
+                  position: 'absolute',
                   top: 0,
                   right: 14,
                   width: 10,
                   height: 10,
-                  bgcolor: "background.paper",
-                  transform: "translateY(-50%) rotate(45deg)",
+                  bgcolor: 'background.paper',
+                  transform: 'translateY(-50%) rotate(45deg)',
                   zIndex: 0,
                 },
               },
             }}
-            transformOrigin={{ horizontal: "right", vertical: "top" }}
-            anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+            transformOrigin={{ horizontal: 'right', vertical: 'top' }}
+            anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
           >
             <MenuItem onClick={handleClose}>
               <Avatar /> Profile
@@ -140,14 +144,14 @@ const ProductPageDetail = () => {
               <Avatar /> My account
             </MenuItem>
           </Menu>
-        </div>
+        </div> */}
         <p className="font-Arial not-italic font-bold text-Heading capitalize text-primary">
-          rs. 749
+          rs. 4999
         </p>
-        <div className="w-[87px] flex items-center justify-between">
+        {/* <div className="w-[87px] flex items-center justify-between">
           <div className="w-[32.02px] h-[32.02px] bg-white shadow-custom1 rounded-[50%] cursor-pointer"></div>
           <div className="w-[32.02px] h-[32.02px] bg-black shadow-custom1 rounded-[50%] cursor-pointer"></div>
-        </div>
+        </div> */}
         <div
           className="flex items-center justify-evenly w-[80.93px] h-[31.7px] bg-white border 
            border-solid border-secondary-darkOpacity"

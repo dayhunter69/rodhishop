@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ImageGallary = ({ info, handleClick, index, imgtab }) => {
   return (
@@ -6,8 +6,8 @@ const ImageGallary = ({ info, handleClick, index, imgtab }) => {
       <div
         className={`${
           imgtab === index
-            ? "w-[82px] h-[82px] flex items-center justify-center cursor-pointer border border-solid border-secondary-darkOpacity rounded-[3px]"
-            : "w-[82px] h-[82px] flex items-center justify-center cursor-pointer"
+            ? 'w-[82px] h-[82px] flex items-center justify-center cursor-pointer border border-solid border-secondary-darkOpacity rounded-[3px]'
+            : 'w-[82px] h-[82px] flex items-center justify-center cursor-pointer'
         }`}
         // onClick={() => handleClick(index)}
         onMouseEnter={() => handleClick(index)}

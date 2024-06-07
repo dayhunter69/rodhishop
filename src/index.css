@@ -31,6 +31,45 @@ ul {
 .rodhiRedHover:hover {
   color: #dd0b39;
 }
+.rodhiRedBgHover:hover {
+  background-color: #dd0b39;
+}
 .rodhiBlueHover:hover {
   color: #013593;
+}
+.rodhiRedBg {
+  background-color: #dd0b39;
+}
+
+.rodhiBlueBg {
+  background-color: #013593;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* Modern Scrollbar Styling */
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
 }

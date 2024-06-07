@@ -34,7 +34,7 @@ const PhotoGallery = () => {
         <div className="text-center mt-4">
           <button
             onClick={showMorePhotos}
-            className="bg-primary text-white font-bold py-2 px-4 rounded"
+            className="rodhiBlueBg rodhiRedBgHover text-white font-bold py-2 px-4 rounded"
           >
             Show More
           </button>

@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import DescriptionTab from "./DescriptionTab";
-import TechSpec from "./TechSpec";
-import Compare from "./Compare";
-import Review from "./Review";
+import React, { useState } from 'react';
+import DescriptionTab from './DescriptionTab';
+import TechSpec from './TechSpec';
+import Compare from './Compare';
+import Review from './Review';
 
 export const ProductTabList = [
   {
-    tabName: "description",
+    tabName: 'description',
   },
   {
-    tabName: "tech-spec",
+    tabName: 'tech-spec',
   },
   {
-    tabName: "compare",
+    tabName: 'compare',
   },
   {
-    tabName: "review",
+    tabName: 'review',
   },
 ];
 
@@ -38,8 +38,8 @@ const ProductTab = () => {
               <p
                 className={`${
                   tab === index
-                    ? "font-Arial not-italic font-normal text-Paragraph2 uppercase text-primary cursor-pointer border-b-2 border-solid border-primary"
-                    : "font-Arial not-italic font-normal text-Paragraph2 uppercase text-primary cursor-pointer border-b-2 border-solid border-transparent"
+                    ? 'font-Arial not-italic font-normal text-Paragraph2 uppercase text-primary cursor-pointer border-b-2 border-solid border-primary'
+                    : 'font-Arial not-italic font-normal text-Paragraph2 uppercase text-primary cursor-pointer border-b-2 border-solid border-transparent'
                 }`}
               >
                 {info.tabName}

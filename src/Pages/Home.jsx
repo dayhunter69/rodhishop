@@ -32,6 +32,7 @@ const Home = () => {
       {/* <ShopAll /> */}
       {/* <Series /> */}
       <HowTo />
+
       {/* <TrendingProduct /> */}
       {/* <HomeChargerSection /> */}
       {/* <HomeWallCharger /> */}

@@ -11,7 +11,7 @@ import introVideoD from './assets/Howto.mp4';
 import NextArrow from '../Shop-Filter/Cable/Carousel/NextArrow/NextArrow';
 import PreviousArrow from '../Shop-Filter/Cable/Carousel/PreviousArrow/PreviousArrow';
 import VideoPlayer from './VideoPlayer';
-
+import { useNavigate } from 'react-router-dom';
 export const VideoList = [
   {
     id: 1,
@@ -77,6 +77,11 @@ const HowTo = () => {
       },
     ],
   };
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/explorehowto');
+  };
   return (
     <>
       <div className="max-w-[858px] mx-auto my-0 mobile:w-[275px] mt-12">
@@ -94,6 +99,14 @@ const HowTo = () => {
               return <VideoPlayer key={index} pro={item} />;
             })}
           </Slider>
+        </div>
+        <div className="container mx-auto flex justify-center mt-5">
+          <button
+            onClick={handleClick}
+            className="rodhiBlueBg rodhiRedBgHover text-white font-bold py-2 px-4 rounded"
+          >
+            Explore More
+          </button>
         </div>
       </div>
     </>
